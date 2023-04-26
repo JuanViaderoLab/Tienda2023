@@ -1,0 +1,22 @@
+#Info h3, h4{
+    text-align: center;
+}
+
+#Info .container-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Info article{
+    margin: 15px;
+    width: auto;
+    height: 90%;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+}
+
+#Info img{
+    width: 100%;
+    height: 100%;
+    max-width: 280px;
+}

@@ -1,0 +1,34 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/tiendacomida-6d3a8.appspot.com/o/alitas-pollo-barbacoa-salsa-agridulce-picnic-menu-verano-comida-sabrosa-vista-superior-lay-flat.jpg?alt=media&token=7496aad3-343f-4608-88f4-d10b3d7fd84b");
+    background-position: top center;
+    background-size: cover;
+    padding: 22%;
+    position: relative;
+    z-index: 1;
+    color:white;
+    background-attachment:fixed;
+}
+
+.banner::after{
+    content:'';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.banner a{
+    display: block;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 0px 0.5px 2px black;
+}
